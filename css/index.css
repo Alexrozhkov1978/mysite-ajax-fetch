@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
+    
+header .header-sitename {
+    font-family: 'Bangers', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px auto;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+}
+    
+header .menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+
+header .menu li {
+    display: inline;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2874A6;
+    font-family: 'Bangers', sans-serif;
+}
+    
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+header .banner {
+    min-height: 250px;
+    background-image: url(../img/foto-main-titul.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;   
+}
+    
+header .buttonBanner {
+    padding: 8px 8px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 20px;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    border-radius: 3px / 100%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: #707B7C; 
+    border: 2px solid #154360;
+}
+
+header .buttonBanner:hover {
+    background-color: #85C1E9;
+    color: white;
+}
+
+header .headers-on-site {
+    font-family: 'Mali', cursive;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+}
+
+main .about-txt-Lombarda {
+    text-indent: 2rem;
+    font-family: 'Mali', cursive;
+    text-align: justify ;
+    font-size: 0.75rem;
+    width: auto;
+    height: 80px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main .about-txt-Lombarda:focus {
+    height: auto;
+}
+
+main .headers-on-site {
+    font-family: 'Mali', cursive;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+}
+
+main .villaFotoCebalo {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+	bottom: 9px;
+}
+
+main    .villaFotoSocol {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+	bottom: 9px;
+}
+
+main   .about-villas-txt {
+    text-indent: 2rem;
+    font-family: 'Mali', cursive;
+    text-align: justify ;
+    font-size: 0.75rem;
+    width: auto;
+    height: 80px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main  .about-villas-txt:focus {
+    height: auto;
+}
+    
+main  .beachesFotoPr {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+}
+
+main .beachesFotoSt {
+    border: ridge;
+    position	: relative;
+    left: 10%;
+	width		: 80%;
+	height		: 80%;
+}
+    
+main  .about-txt-beaches {
+    text-indent: 2rem;
+    font-family: 'Mali', cursive;
+    text-align: justify ;
+    font-size: 0.75rem;
+    width: auto;
+    height: 80px;
+    margin: 9px 0px 9px 0px;
+    padding-right: 10px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+main  .about-txt-beaches:focus {
+    height: auto;
+}
+
+main .all-data-friendlylinks {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 140px 1fr;
+    font-family: 'Mali', cursive;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+main .button-friendlylinks {
+    padding: 5px 5px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 10px;
+    cursor: pointer;
+    background-color: white; 
+    color: #707B7C; 
+    border: 2px solid #154360;   
+    width: 100px;
+    max-height: 28px;
+}
+
+main .button-friendlylinks:hover {
+    background-color: #85C1E9;
+    color: white;
+}
+
+main .href-text:hover {
+    background-color: #85C1E9;
+    color: white;
+    
+}
+
+main .all-data-contacts {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 50px 1fr;
+    font-family: 'Mali', cursive;
+    font-size: 0.9rem;
+    align-items: center;
+    margin-left: 10px;
+}
+
+main .img-icon-contacts {
+    height: 36px;
+    width: 36px;
+}
+
+main .contacts-tel{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 50px 50px 50px 50px 1fr;
+    font-family: 'Mali', cursive;
+    font-size: 0.9rem;
+    align-items: center;
+    margin-left: 10px;
+}
+
+main  .content-in-form{
+    display: grid;
+    margin-top: 10px;
+    grid-gap: 5px;
+    grid-template-columns: auto;
+    font-family: 'Mali', cursive;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 0.9rem;
+    align-items: center;
+    margin-left: 10px;
+    background: #D2F1F4;
+}
+
+main .block-but-submit {
+    display: flex;
+    justify-content: center;
+}
+
+
+main  .but-submit {
+    padding: 5px 5px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: white; 
+    color: #707B7C; 
+    border: 2px solid #154360;   
+    width: 100px;
+    max-height: 28px;
+}
+
+main .but-submit:hover {
+    background-color: #85C1E9;
+    color: white;
+}
+
+footer .text-footer {
+    font-family: 'Mali', cursive;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+
+@media (min-width: 500px) {
+
+header .header-sitename {
+    font-size: 2.5rem;
+    }
+
+header .menu {
+    font-size: 1.1rem;
+}
+
+header .banner {
+    min-height: 400px;
+}
+
+header .buttonBanner {
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 20px 40px;
+}
+
+header .headers-on-site {
+    font-size: 1.6rem;
+}
+
+main .about-txt-Lombarda {
+    font-size: 0.9rem;
+    overflow: visible;
+    height: auto;
+    cursor: auto;
+}
+
+main .headers-on-site {
+    font-size: 1.6rem;
+}
+
+main .villaFotoCebalo {
+    border: ridge;
+    position	: relative;
+    width		: 45%;
+	height		: 45%;
+	bottom: 0px;
+	left:0%;
+	float:left;
+	margin: 0px 30px 10px 0px;
+}
+
+main   .about-villas-txt {
+    font-size: 0.9rem;
+    overflow: visible;
+    list-style-type: disc;
+    height: auto;
+    cursor: auto;
+    margin: 0px 0px 0px 10px;
+}
+
+main  .villaFotoSocol {
+    border: ridge;
+    position	: relative;
+    width		: 45%;
+	height		: 45%;
+	bottom: 0px;
+	float:right;
+	left:0%;
+	margin: 0px 0px 0px 30px;
+}
+
+/*main  .all-data-about-villas-fordesktop {
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    align-items: center;
+}*/
+/*
+main  .beachesFotoPr {
+    left: 0%;
+	width		: 45%;
+	height		: 45%;
+}
+
+main .beachesFotoSt {
+    left: 10%;
+	width		: 45%;
+	height		: 45%;
+}
+    
+main  .about-txt-beaches {
+    font-size: 0.9rem;
+    overflow: visible;
+    list-style-type: disc;
+    height: auto;
+    cursor: auto;
+    margin: 0px 0px 0px 10px;
+}
+
+*/
+
+
+}
